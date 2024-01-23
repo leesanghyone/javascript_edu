@@ -4,3 +4,6 @@
 function action() {
   console.log('클릭했다');
 }
+function action() {
+  console.log('안녕하세요');
+}
