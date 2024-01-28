@@ -5,30 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      * {
-        margin: 0px;
-        padding: 0px;
+      img {
+        width: 200px;
+        height: 250px;
       }
-      html {
-        font-size: 16px;
+      .container {
+        width: 600px;
+        border: 1px solid black;
       }
-      .rem-test {
-        font-size: 1rem;
+      .float-left {
+        float: left;
       }
+
+      .float-right {
+        float: right;
+      }
+      /* .clear {
+        clear: both;
+      }
+      .kill {
+        clear: both;
+      } */
     </style>
   </head>
   <body>
-    <h2>px</h2>
-    <p>안녕하세요 반갑습니다. 테스트용 문구입니다.</p>
-    <h2>rem</h2>
-    <p class="rem-test">안녕하세요 반갑습니다. 테스트용 문구입니다.</p>
-    <h2 class="bumo">
-      EM
-      <p class="jasic">안녕하세요 반갑습니다. 테스트용 문구입니다.</p>
-    </h2>
-    <h2>vw</h2>
-    <p style="font-size: 1vw">안녕하세요 반갑습니다. 테스트용 문구입니다.</p>
-    <h2>vh</h2>
-    <p style="font-size: 100vh">안녕하세요 반갑습니다. 테스트용 문구입니다.</p>
+    <div class="container">
+      <img class="float-left" src="./보건증_1.jpg" alt="보건증" />
+      <p class="kill">
+        빙수(氷水, 문화어: 단얼음, 영어: shaved ice)는 잘게 부수어진 얼음에 당밀
+        또는 설탕과 그밖의 감미료를 섞은 얼음과자이다. 주재료인 얼음은, 과거에는
+        천연 얼음이 쓰였지만 나중에는 인조 얼음이
+      </p>
+      <img class="float-right" src="./보건증_1.jpg" alt="보건증" />
+      <p class="clear">
+        빙수(氷水, 문화어: 단얼음, 영어: shaved ice)는 잘게 부수어진 얼음에 당밀
+        또는 설탕과 그밖의 감미료를 섞은 얼음과자이다. 주재료인 얼음은, 과거에는
+        천연 얼음이 쓰였지만 나중에는 인조 얼음이
+      </p>
+    </div>
   </body>
 </html>
